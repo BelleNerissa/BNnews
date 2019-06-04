@@ -1,0 +1,200 @@
+body {
+    Margin: 0;
+    font-family: Arial, Helveticver, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:black;
+}
+ #camponoticias{
+    padding: 0 54px;
+}
+
+.menu ul li {
+    background-color: rgb(83, 19, 19);
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    height: 30px;
+}
+
+.menu ul  {
+    padding: 0;
+    background-color: rgb(83, 19, 19);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+    
+}
+.menu  {
+        background-color: rgb(83, 19, 19);
+}
+.menu ul li a {
+   color: white;
+   text-decoration: none;
+   margin: 0px;
+}
+
+#centro{
+padding: 0 30px;
+}
+
+.menu a {
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+}
+
+body h1{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+body h2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 54px;
+}
+body p {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+#leiamais{
+    font-weight: bold;
+}
+#leiamais:hover{
+    color:blue;
+}
+
+ body img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 32px;
+    width: 80%;
+ }
+.logo {
+    width: 15%;
+    height: 10%;
+}
+.link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title {
+    padding: 10px;
+    width: 80%;
+    border: 5px solid white;
+    background-color: rgb(83, 19, 19);
+    background-image:linear-gradient(rgb(79, 182, 223),rgb(119, 24, 24));
+    margin: 0; 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 16px;
+    color:white;
+  }
+footer {
+    background-color: rgb(83, 19, 19);
+    background-image:linear-gradient(rgb(79, 182, 223),rgb(119, 24, 24));
+    color: white;
+    text-align: center;
+ }
+
+ @media screen and (min-width: 695px) {
+    body h2 {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 54px;
+    }
+
+    body p {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        
+    }
+
+    body img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 32px;
+        width: 60%;
+     }
+     .title {
+        padding: 10px;
+        width: 80%;
+        border: 5px solid white;
+        background-color: rgb(83, 19, 19);
+        background-image:linear-gradient(rgb(79, 182, 223),rgb(119, 24, 24));
+        margin: 0; 
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0 16px;
+        color:white;
+      }
+      .menu ul li {
+        background-color: rgb(83, 19, 19);
+        background-image:linear-gradient(rgb(79, 182, 223),rgb(119, 24, 24));
+        height: 40px;
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 16px;
+        font-size: 1.5rem;
+        
+    }
+
+    .menu ul li a:hover {
+        color:black;
+    }
+    .menu ul  {
+        padding: 0;
+        background-color: rgb(83, 19, 19);
+        background-image:linear-gradient(rgb(79, 182, 223),rgb(119, 24, 24));
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+  
+   .title {
+    padding: 10px;
+    width: 95%;
+    border: 5px solid white;
+    background-color: rgb(83, 19, 19);
+    background-image:linear-gradient(rgb(79, 182, 223),rgb(119, 24, 24));
+    margin: 0; 
+    display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      padding: 0 16px;
+      color:white;
+  }
+
+
+        
+    
+ }
+
+
+
+

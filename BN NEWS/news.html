@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Primeiro site de noticias- puc 2019">
+    <meta name="keywords" content="html, noticias, web, pucminas, BNnews, css">
+    <meta name="author" content="Belle">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <script src="dbfake.js"></script>
+    <title>BN.news</title>
+    <link name="BN news" rel="shortcut icon" href="logo BNnews.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="menu">
+
+                <a href="https://pucweb-belle-elizeu.azurewebsites.net">
+                    <img class="logo" src="logo BNnews.png" alt="logobnnews" height="30">
+                </a>
+                <ul>
+                    <li><a href="https://pucweb-belle-elizeu.azurewebsites.net"><b>Início</b></a></li>
+                    <li><a href="#"><b>Todas Notícias</b></a></li>
+                    <li><a href="#"><b>Sobre Nós</b></a></li>
+                    <li><a href="#"><b>Contato</b></a></li>
+                    <li><a href="#"><b>Login</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <div id="centro"></div>
+        <br>
+</body>
+<br>
+<footer>
+    <div>
+        @Copyright
+    </div>
+</footer>
+<script>
+    const urlParams = new URLSearchParams(location.search);
+    const id = urlParams.get('id');
+
+    for (i = 0; i < db.dados.length; i++) {
+        console.log(db.dados[i])
+        if (db.dados[i].id == id) {
+            document.getElementById('centro').innerHTML =
+                `<div>
+                        <h1 class="titulo">${db.dados[i].titulo}</h1>
+                        <br>
+                            <img class="img" src="${db.dados[i].imagem}">
+                        <br>
+                        <p> ${db.dados[i].corpo}</p>
+                        <br>
+                    </div>`;
+        }
+    }
+
+</script>
+</div>
+
+</html>
